@@ -168,6 +168,9 @@ Simply put, this downloads the file as a temp file, we load it in with `TextFile
 
 Why do we want to support streaming? What about streaming is important, or useful?
 
+We support streaming because we need to process data as it arrives in real-time. Streaming allows to process large data sets that exceed systems memory capacity. By processing data in small chunks you avoid the need to load the entire dataset into memory. It is use to improve performance because we process the data as it become available. This creates a more natural conversation experience.
+
+
 ### On Chat Start:
 
 The next scope is where "the magic happens". On Chat Start is when a user begins a chat session. This will happen whenever a user opens a new chat window, or refreshes an existing chat window.
@@ -209,6 +212,8 @@ Now, we'll save that into our user session!
 #### ❓ QUESTION #2: 
 
 Why are we using User Session here? What about Python makes us need to use this? Why not just store everything in a global variable?
+
+Chainlit provides user session to persist data in memory through the life cycle of a chat session. Each session is unique to user and the chat session. We do not use global session because doing so will cause the users of our application to share the same state causing mixing of the files and chat history.
 
 ### On Message
 
@@ -330,8 +335,16 @@ Try uploading a text file and asking some questions!
 Upload a PDF file of the recent DeepSeek-R1 paper and ask the following questions:
 
 1. What is RL and how does it help reasoning?
+
+![assignment3_1](https://github.com/user-attachments/assets/83ae9c91-ae90-467d-a81e-20d2aed4ef4f)
+
 2. What is the difference between DeepSeek-R1 and DeepSeek-R1-Zero?
+
+![assignment3_2](https://github.com/user-attachments/assets/d5f38547-f93e-40e6-b8d2-e8a170f3bc52)
+
 3. What is this paper about?
+
+![assignment3_3](https://github.com/user-attachments/assets/9a956147-ff46-43b2-aff6-7c7cc8195aa2)
 
 Does this application pass your vibe check? Are there any immediate pitfalls you're noticing?
 
