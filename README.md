@@ -335,8 +335,16 @@ Try uploading a text file and asking some questions!
 Upload a PDF file of the recent DeepSeek-R1 paper and ask the following questions:
 
 1. What is RL and how does it help reasoning?
+
+![assignment3_1](https://github.com/user-attachments/assets/83ae9c91-ae90-467d-a81e-20d2aed4ef4f)
+
 2. What is the difference between DeepSeek-R1 and DeepSeek-R1-Zero?
+
+![assignment3_2](https://github.com/user-attachments/assets/d5f38547-f93e-40e6-b8d2-e8a170f3bc52)
+
 3. What is this paper about?
+
+![assignment3_3](https://github.com/user-attachments/assets/9a956147-ff46-43b2-aff6-7c7cc8195aa2)
 
 Does this application pass your vibe check? Are there any immediate pitfalls you're noticing?
 
