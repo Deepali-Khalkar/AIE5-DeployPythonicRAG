@@ -334,7 +334,7 @@ Try uploading a text file and asking some questions!
 
 Upload a PDF file of the recent DeepSeek-R1 paper and ask the following questions:
 
-I have used the DeepSink pdf (https://github.com/Deepali-Khalkar/AIE5-DeployPythonicRAG/blob/main/DeepSeek_R1.pdf) to upload to the application.
+I have used the DeepSink pdf found in https://github.com/Deepali-Khalkar/AIE5-DeployPythonicRAG/tree/main?tab=readme-ov-file to upload to the application.
 
 1. What is RL and how does it help reasoning?
 
