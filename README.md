@@ -334,7 +334,7 @@ Try uploading a text file and asking some questions!
 
 Upload a PDF file of the recent DeepSeek-R1 paper and ask the following questions:
 
-I have used the DeepSink pdf (https://github.com/Deepali-Khalkar/AIE5-DeployPythonicRAG/blob/main/DeepSeek_R1.pdf) to the application.
+I have used the DeepSink pdf (https://github.com/Deepali-Khalkar/AIE5-DeployPythonicRAG/blob/main/DeepSeek_R1.pdf) to upload to the application.
 
 1. What is RL and how does it help reasoning?
 
@@ -349,6 +349,7 @@ I have used the DeepSink pdf (https://github.com/Deepali-Khalkar/AIE5-DeployPyth
 ![assignment3_3](https://github.com/user-attachments/assets/9a956147-ff46-43b2-aff6-7c7cc8195aa2)
 
 Does this application pass your vibe check? Are there any immediate pitfalls you're noticing?
+
 Looking at the first two Q&A example, I feel we get a clear response that are relevant to the question we are asking. We do not get response for 3rd question because the context is not clear to the LLM. Looks like LLM does not understand which paper _this_ word refers to.
  
 
